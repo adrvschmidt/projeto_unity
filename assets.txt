@@ -1,3 +1,5 @@
+baixar o compiled.unitypackage e colocar na pasta game/external/
+
 https://assetstore.unity.com/packages/tools/utilities/asset-hunter-2-22983
 https://assetstore.unity.com/packages/tools/ai/usim-ai-turrets-78968
 https://assetstore.unity.com/packages/tools/camera/pro-camera-2d-the-definitive-2d-2-5d-unity-camera-plugin-42095
@@ -28,3 +30,4 @@ Dependência do Anim heroes: http://pt.esotericsoftware.com/spine-unity-download
 
 https://assetstore.unity.com/packages/essentials/tutorial-projects/2d-game-kit-107098
 https://blogs.unity3d.com/pt/2018/09/20/intro-to-2d-world-building-with-sprite-shape/
+
