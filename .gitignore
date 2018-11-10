@@ -35,6 +35,3 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-# External Assets folder location
-external/
-
