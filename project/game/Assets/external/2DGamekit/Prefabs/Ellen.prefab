@@ -41,12 +41,12 @@ GameObject:
   - component: {fileID: 70340845508230026}
   - component: {fileID: 50735333045448606}
   - component: {fileID: 114591936569520678}
-  - component: {fileID: 114734347468151670}
   - component: {fileID: 114854669915511232}
   - component: {fileID: 114774311958850474}
   - component: {fileID: 114460243114916098}
   - component: {fileID: 114680495344679792}
   - component: {fileID: 114621962236214084}
+  - component: {fileID: 114702079100007062}
   m_Layer: 13
   m_Name: Ellen
   m_TagString: Untagged
@@ -1337,7 +1337,7 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114734347468151670}
+        - m_Target: {fileID: 0}
           m_MethodName: EnableMeleeAttacking
           m_Mode: 1
           m_Arguments:
@@ -1353,7 +1353,7 @@ MonoBehaviour:
     OnRemove:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114734347468151670}
+        - m_Target: {fileID: 0}
           m_MethodName: DisableMeleeAttacking
           m_Mode: 1
           m_Arguments:
@@ -1370,7 +1370,7 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114734347468151670}
+        - m_Target: {fileID: 0}
           m_MethodName: EnableRangedAttacking
           m_Mode: 1
           m_Arguments:
@@ -1386,7 +1386,7 @@ MonoBehaviour:
     OnRemove:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114734347468151670}
+        - m_Target: {fileID: 0}
           m_MethodName: DisableRangedAttacking
           m_Mode: 1
           m_Arguments:
@@ -1415,7 +1415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 1567967645905842, guid: 4593cdd83a432764aac5e418b812b3e0, type: 2}
   initialPoolCount: 10
---- !u!114 &114734347468151670
+--- !u!114 &114702079100007062
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1441,7 +1441,7 @@ MonoBehaviour:
     m_Enabled: 1
   RangedAttack:
     key: 111
-    controllerButton: 10
+    controllerButton: 2
     m_Enabled: 1
   Jump:
     key: 32
@@ -1456,7 +1456,7 @@ MonoBehaviour:
     negative: 115
     controllerAxis: 2
   dataSettings:
-    dataTag: PlayerInput
+    dataTag: f9419d97-3df1-46b1-8cbc-977851d1e571
     persistenceType: 3
 --- !u!114 &114774311958850474
 MonoBehaviour:

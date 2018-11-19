@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: 
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/.unity
@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Jungle.unity
     guid: 3593d8d32accab24f98510e9f18c66b1
   - enabled: 1
-    path: Assets/snow.unity
+    path: Assets/Scenes/playground.unity
     guid: 3295327f6a8bc644d932ae01859f82b7
+  - enabled: 1
+    path: Assets/Fase1.unity
+    guid: b38d92d6ce4b56447bd602aedf8f998a
   m_configObjects: {}
