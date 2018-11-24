@@ -101,5 +101,21 @@ namespace Gamekit2D
                 }
             }
         }
+
+        void onCollisionEnter(Collider collider)
+        {
+            Damageable damageable = m_LastHit.GetComponent<Damageable>();
+            if (damageable)
+            {
+                OnDamageableHit.Invoke(this, damageable);
+                damageable.TakeDamage(this, ignoreInvincibility);
+                if (disableDamageAfterHit)
+                    DisableDamage();
+            }
+            else
+            {
+                OnNonDamageableHit.Invoke(this);
+            }
+        }
     }
 }
