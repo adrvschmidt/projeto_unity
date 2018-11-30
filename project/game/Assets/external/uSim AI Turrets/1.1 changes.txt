@@ -1,7 +1,0 @@
-version 1.1 
-
-*Fixed serval errors in target tracking solving. My apologizes to those that run into the bug.
-Current version is beeing widely tested and will have lot of improvements.
-*Added two new templates. AA gun and deck gun.
-*Added max rotation of base.
-*Added optional use of ammo clips. (ammo consuming)

@@ -1,7 +1,0 @@
-uSim AI Turrets v1.0b
-
-Look in Docs folder for complete documentation.
-Open scene in scenes folder for an example setup.
-To start using in your project, drag a prefab into scene.
-assign tags and/or layers for target acquisition in
-Turrets_main.cs "enemies tags" "enemies layers" arrays.
